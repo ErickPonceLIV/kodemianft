@@ -1,0 +1,93 @@
+body{
+   background-color: hsl(217, 54%, 11%)
+}
+
+body p{
+    font-size: 18px;
+   color: hsl(215, 51%, 70%)
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    margin-top: 100px;
+    align-items: center;
+  
+}
+p{
+ font-family: 'Outfit', sans-serif;
+}
+
+.nft{
+    width: 353px;
+    height: 625px;
+    background-color: hsl(216, 50%, 16%);
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    border-radius: 19px;
+}
+ 
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.nft_image{
+    margin-top: 20px;
+    height: 300px;
+    width: 300px;
+    border-radius: 13px;
+    
+ }
+
+.info{
+    margin-left: 32px;
+}
+
+.price_time{
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    height: 32.99px;
+
+}
+
+.creator_content{
+    margin-left: 12px;
+    margin-bottom: 19px;
+}
+
+.creator{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    width: 242px;
+    height: 38px;
+    margin-left: 7px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 129px;
+    height: 19px;
+}
+
+.avatar{
+    width: 24px;
+    height: 25px;
+    border: 2px solid hsl(215deg 46% 41%);
+    border-radius: 19px; 
+}
+
+hr{
+    margin: 6px;
+    width: 281px;
+    margin-left: 26px;
+    border: 1px solid #0d192b;
+}
